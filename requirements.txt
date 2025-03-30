@@ -12,6 +12,7 @@ tqdm>=4.65.0   # Required for progress bars
 scipy>=1.7.0   # Required for audio processing
 typing>=3.7.4  # For type hints
 uuid>=1.30     # For generating unique IDs
+gunicorn>=20.1.0  # For production deployment
 
 # Development dependencies (optional)
 pytest>=6.0.0  # For testing

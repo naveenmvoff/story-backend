@@ -3,8 +3,7 @@ from flask_cors import CORS
 from transformers import pipeline
 from googletrans import Translator
 from dotenv import load_dotenv
-import backend.audio as audio  # Import your updated Murf audio module
-
+import audio  # Changed from backend.audio to just audio since they're in the same directory
 
 # Load environment variables 
 load_dotenv()
