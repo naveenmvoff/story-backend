@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+env/
+venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Project specific
+static/audio/*
+!static/audio/.gitkeep
+
+# Model cache
+transformers_cache/
+torch_cache/
+
+# System files
+.DS_Store
+Thumbs.db
