@@ -2,4 +2,4 @@
 nixPkgs = ["python3", "gcc"]
 
 [start]
-cmd = "cd story-backend && gunicorn --bind 0.0.0.0:$PORT wsgi:app"
+cmd = "gunicorn --bind 0.0.0.0:$PORT app:app"
